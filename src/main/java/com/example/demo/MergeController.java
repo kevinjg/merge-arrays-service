@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MergeController {
 
     @RequestMapping("/merge")
-    public ArrayList<Integer> greeting(@RequestParam List<Integer> a1, @RequestParam List<Integer> a2) {
+    public ArrayList<Integer> merge(@RequestParam List<Integer> a1, @RequestParam List<Integer> a2) {
         return mergeArrays(a1, a2);
     }
 
