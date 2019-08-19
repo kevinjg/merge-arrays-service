@@ -22,7 +22,7 @@ Ensure you have the following installed:
     ```
     docker run -p 8080:8080 merge-arrays-service
     ```
-5) The service exposes a `/merge` endpoint. Hit the following URL in your browser or via curl.
+5) The service exposes a `/merge` endpoint. Hit [this URL](http://localhost:8080/merge?a1=1,4,5,5,6,9&a2=2,5,6,10,10,10,12) in your browser or run the following curl.
     ``` 
     curl -i http://localhost:8080/merge\?a1\=1,4,5,5,6,9\&a2\=2,5,6,10,10,10,12
     ```
